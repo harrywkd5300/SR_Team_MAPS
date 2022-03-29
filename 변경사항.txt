@@ -1,0 +1,13 @@
+component.h
+enum COM_TYPE에서 COM_UPDATETYPE으로 바꿈
+(GameObject의 map에 넣을 때 쓰는 용도)
+TYPE_STATIC, TYPE_DYNAMIC이 아닌
+COM_UPDATETYPE_NOTIFY, UPDATETYPE_SUSTAIN
+
+Management에서 Renderer를 가지고 있지 않고, Scene에서 Renderer를 가지고 있음
+Management -> Set_CurScene(CScene* pNewScene) -> Set_CurScene(CScene* pNewScene, CRenderer* pRenderer)
+
+ComponentManager&ObjectManager 
+Ready_Component& Ready_GameObject
+-> Add_Component& Add_GameObject
+

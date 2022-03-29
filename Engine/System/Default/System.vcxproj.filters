@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00. Device">
+      <UniqueIdentifier>{4dbfa561-9c88-46a4-91ca-2c4c8d714d93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Timer">
+      <UniqueIdentifier>{bd329dfe-bd10-4561-a4d2-791f03cdea8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Frame">
+      <UniqueIdentifier>{d8c6e703-25be-44a2-80ac-f5acad914db5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Device\00. Graphic_Device">
+      <UniqueIdentifier>{3d435922-2a30-4708-97f3-f8991864e21b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Device\01. Input_Device">
+      <UniqueIdentifier>{7ba1e954-65e7-4588-af3b-bebe3d97e4db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Timer\00. Manager">
+      <UniqueIdentifier>{46e820bd-87fc-4444-827b-13c443cda676}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Timer\01. Timer">
+      <UniqueIdentifier>{6cdf56c7-c89a-4e8c-a595-37acef248117}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Frame\00. Manager">
+      <UniqueIdentifier>{4cecb4c6-4bcb-4579-a303-58f8df14d182}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Frame\01. Frame">
+      <UniqueIdentifier>{7c519ae1-b843-4584-b3e3-8ad03713714d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Device\99. Font">
+      <UniqueIdentifier>{3b6d6cda-36bf-4893-8e3a-8253d23a6213}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Codes\Graphic_Device.cpp">
+      <Filter>00. Device\00. Graphic_Device</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Input_Device.cpp">
+      <Filter>00. Device\01. Input_Device</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Frame.cpp">
+      <Filter>02. Frame\01. Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Frame_Manager.cpp">
+      <Filter>02. Frame\00. Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Timer.cpp">
+      <Filter>01. Timer\01. Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Timer_Manager.cpp">
+      <Filter>01. Timer\00. Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\d3dfont.cpp">
+      <Filter>00. Device\99. Font</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Headers\Graphic_Device.h">
+      <Filter>00. Device\00. Graphic_Device</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Frame.h">
+      <Filter>02. Frame\01. Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Frame_Manager.h">
+      <Filter>02. Frame\00. Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Input_Device.h">
+      <Filter>00. Device\01. Input_Device</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Timer.h">
+      <Filter>01. Timer\01. Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Timer_Manager.h">
+      <Filter>01. Timer\00. Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\d3dfont.h">
+      <Filter>00. Device\99. Font</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

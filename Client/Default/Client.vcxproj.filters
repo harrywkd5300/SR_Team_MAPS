@@ -1,0 +1,517 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="99. Default">
+      <UniqueIdentifier>{5fd6d45a-7435-460f-9e63-7175ec4d98bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. MainApp">
+      <UniqueIdentifier>{3307725e-dd08-4f17-9bd2-6a84b5accb2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Headers">
+      <UniqueIdentifier>{53c1c73f-016f-411d-9781-4db8331dc881}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene">
+      <UniqueIdentifier>{fd618f8e-69cd-4ab9-98b5-dd97118bfaf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject">
+      <UniqueIdentifier>{4e4d613c-52d3-4ebb-b025-caf07421e969}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Logo">
+      <UniqueIdentifier>{2d5f72ee-4847-4301-881e-2a8347438f04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Stage">
+      <UniqueIdentifier>{2129ca1c-83bb-449a-ae1e-31f321b799ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\00. Logo">
+      <UniqueIdentifier>{3e65087f-5b65-4235-88ee-b8e5d00c101a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\01. Stage">
+      <UniqueIdentifier>{4ee00a9f-12ec-46cb-8938-4c47d03a06c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\99. Public">
+      <UniqueIdentifier>{3ce08622-9ff5-428e-bdb3-4327ddf78750}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\99. Public\00. Camera">
+      <UniqueIdentifier>{dae3e6c5-7722-4a56-b034-df0297e2382a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\99. Public\00. Camera\01. Camera_Player">
+      <UniqueIdentifier>{4da5d456-82e2-4af2-a953-7ebab31c2b3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\99. Public\00. Camera\00. Camera_Dynamic">
+      <UniqueIdentifier>{5959dfb7-1b23-4d23-964c-39839a30add0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Stage\99. Test">
+      <UniqueIdentifier>{98e2bf0e-e159-4bec-a241-49b43d09be0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Stage\03. Skill">
+      <UniqueIdentifier>{1746753d-d338-4bfa-a56d-c0b81346f1ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Stage\03. Skill\00. Bullet">
+      <UniqueIdentifier>{24ed9353-6436-40c0-a159-b57e46a1344d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Stage\98. Light">
+      <UniqueIdentifier>{8f3e8769-e8ff-442e-9ef9-c71433e0d47e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Stage\00. Background">
+      <UniqueIdentifier>{51abd765-e9d8-47c0-b7a8-842486ec6b53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Stage\00. Background\00. Terrain">
+      <UniqueIdentifier>{30413ae3-19ff-495d-924e-53f7cccb9eb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Stage\05. Weapon">
+      <UniqueIdentifier>{15066967-be19-4510-98bc-587557ea931b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Stage\04. Effect">
+      <UniqueIdentifier>{330748b0-7312-494d-ba40-ea664d3ee86d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Stage\05. Weapon\01.Pistol">
+      <UniqueIdentifier>{7c738203-950b-4445-9664-c9d58fcef9c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Stage\05. Weapon\02. Rifle">
+      <UniqueIdentifier>{a23130bd-30d3-4a11-a50b-9aade5d602e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Stage\05. Weapon\03. Shotgun">
+      <UniqueIdentifier>{6252c1f4-30e0-41d8-b623-137fcc163fdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Stage\05. Weapon\04. Chaingun">
+      <UniqueIdentifier>{98ffe86d-3c40-42c9-bcc4-c677e7fc5691}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Logo\01. UI_Logo">
+      <UniqueIdentifier>{abe481db-abf7-4b0b-bf12-d617ef083181}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Logo\00. Back_Logo">
+      <UniqueIdentifier>{dca313aa-c725-4042-be06-8c3a285877b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Stage\01. Character">
+      <UniqueIdentifier>{baceaa76-56e5-4504-b8f7-cd77c76e0e4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Stage\01. Character\02. Monster">
+      <UniqueIdentifier>{8c5792fd-2536-4062-be03-fdf42169405c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Stage\01. Character\01. Player">
+      <UniqueIdentifier>{266ad385-fec9-4cd3-b044-a3140d04852b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Manager">
+      <UniqueIdentifier>{afb8429e-305e-4d2a-8bd2-a7915d75e6cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Manager\00. Collider_Manager">
+      <UniqueIdentifier>{6793aace-b513-41cf-a7ca-7378c4858a67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Stage\06. Object">
+      <UniqueIdentifier>{e20b7fd8-7b4a-4630-b883-f1ae98f06abb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Stage\06. Object\00.Cube">
+      <UniqueIdentifier>{afe90ed3-80c6-47a2-8d12-89982d4a4ae1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Stage\06. Object\01.House">
+      <UniqueIdentifier>{a8a12a1e-0d4f-4895-ac90-f97afb811130}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Stage\06. Object\01.House\00.Base">
+      <UniqueIdentifier>{16d281c5-7c51-4ea8-bdbb-ba51e33ffb0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Stage\06. Object\01.House\01.HouseRoof">
+      <UniqueIdentifier>{eed9c0ab-be99-41d1-9cbd-f8ed5b8659eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Stage\06. Object\00.Cube\00.BaseCube">
+      <UniqueIdentifier>{9151ee6f-3b21-4943-82f2-29389adc06e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Stage\06. Object\00.Cube\01.CollCube">
+      <UniqueIdentifier>{ccab759f-0af4-42f7-acb7-0c118eed36c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Logo\03. SkyBox">
+      <UniqueIdentifier>{e3a23257-f811-45fe-ad18-8f165e31fedf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Logo\02. Ui_LogoQuit">
+      <UniqueIdentifier>{c563796d-7676-49d7-b8b7-34470ce2e00e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Stage\07. UI">
+      <UniqueIdentifier>{51624bec-bad6-4040-88cb-c47239967ae8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Stage\07. UI\00.QuickSlot">
+      <UniqueIdentifier>{bab39568-290d-402f-ab4d-d9263b3b8ad7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Stage\07. UI\01.QuickSlot_Reserve">
+      <UniqueIdentifier>{5ba2fed3-66f5-4620-8089-08fd81fad7f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Manager\01. Ui_Manager">
+      <UniqueIdentifier>{74ce3712-468a-43d4-ae75-5117b6cb6b2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Stage\01. Character\02. Monster\02. Creeper">
+      <UniqueIdentifier>{a87b9888-964f-49fd-9109-7e05e7ffe771}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Stage\07. UI\02.BulletCnt">
+      <UniqueIdentifier>{d153fa65-fee3-438e-a447-2b52fbc99572}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Manager\02. Wave_Manager">
+      <UniqueIdentifier>{bcd7ee6c-483a-4f5f-ac8a-45d15a8e3647}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Stage\03. Skill\01.ColliderSkill">
+      <UniqueIdentifier>{13335c57-44b3-4c36-a422-0bc701dc656f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Stage\07. UI\03.CrossFilter">
+      <UniqueIdentifier>{29eff05f-7c51-4016-9622-596c6c827645}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Stage\03. Skill\02.Fileball">
+      <UniqueIdentifier>{ae8a8e79-b548-47a0-8c52-8a4d9ebbfec1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Stage\03. Skill\03.FireWeaponSkill">
+      <UniqueIdentifier>{398b72bc-93c0-4f51-bcfa-19d882901e10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Stage\07. UI\04.Hit_UI">
+      <UniqueIdentifier>{e49ac08c-12eb-48ac-992e-a9a67f6ce9dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Stage\05. Weapon\05. FireWeapon">
+      <UniqueIdentifier>{61214b9d-e00d-4117-96e0-4614e589bcd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Stage\01. Character\02. Monster\03. Boss">
+      <UniqueIdentifier>{3b510e69-5d8e-47de-a47a-8a43eaea93b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Stage\01. Character\02. Monster\01. Ghost">
+      <UniqueIdentifier>{2b596e89-1490-419f-a717-ae7dc42595fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Stage\01. Character\02. Monster\00. Basic">
+      <UniqueIdentifier>{d23b2123-b14e-4554-8a6e-19df4a77f338}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Stage\05. Weapon\06. Projectile">
+      <UniqueIdentifier>{e788d34c-8453-4ad9-a3d3-87e0e9cac01f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Stage\03. Skill\04. ProjectileSkill">
+      <UniqueIdentifier>{bb3a6699-b81f-45b0-8d6c-66630a6318d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Stage\00. Background\01. SkyBox">
+      <UniqueIdentifier>{247b83dc-9213-4158-8e7e-9a2eff25494c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Manager\03. Sound_Manager">
+      <UniqueIdentifier>{60d449aa-8ea6-4ee2-b76a-fbf581e81678}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Client.h">
+      <Filter>99. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>99. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\MainApp.h">
+      <Filter>00. MainApp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Constant.h">
+      <Filter>98. Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Defines.h">
+      <Filter>98. Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Macro.h">
+      <Filter>98. Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Scene_Logo.h">
+      <Filter>01. Scene\00. Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Scene_Stage.h">
+      <Filter>01. Scene\01. Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Terrain.h">
+      <Filter>02. GameObject\01. Stage\00. Background\00. Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Player.h">
+      <Filter>02. GameObject\01. Stage\01. Character\01. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Camera_Dynamic.h">
+      <Filter>02. GameObject\99. Public\00. Camera\00. Camera_Dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Camera_Player.h">
+      <Filter>02. GameObject\99. Public\00. Camera\01. Camera_Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Skill.h">
+      <Filter>02. GameObject\01. Stage\03. Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Bullet.h">
+      <Filter>02. GameObject\01. Stage\03. Skill\00. Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\LightObj.h">
+      <Filter>02. GameObject\01. Stage\98. Light</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Weapon.h">
+      <Filter>02. GameObject\01. Stage\05. Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Struct.h">
+      <Filter>98. Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Pistol.h">
+      <Filter>02. GameObject\01. Stage\05. Weapon\01.Pistol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\IncludeWeapon.h">
+      <Filter>98. Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Rifle.h">
+      <Filter>02. GameObject\01. Stage\05. Weapon\02. Rifle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Shotgun.h">
+      <Filter>02. GameObject\01. Stage\05. Weapon\03. Shotgun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Chaingun.h">
+      <Filter>02. GameObject\01. Stage\05. Weapon\04. Chaingun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\House.h">
+      <Filter>02. GameObject\01. Stage\06. Object\01.House\00.Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\HouseRoof.h">
+      <Filter>02. GameObject\01. Stage\06. Object\01.House\01.HouseRoof</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Back_Logo.h">
+      <Filter>02. GameObject\00. Logo\00. Back_Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Logo_UI.h">
+      <Filter>02. GameObject\00. Logo\01. UI_Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Logo_SkyBox.h">
+      <Filter>02. GameObject\00. Logo\03. SkyBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\BaseMonster.h">
+      <Filter>02. GameObject\01. Stage\01. Character\02. Monster\00. Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Monster.h">
+      <Filter>02. GameObject\01. Stage\01. Character\02. Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Character.h">
+      <Filter>02. GameObject\01. Stage\01. Character</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Collider_Manager.h">
+      <Filter>03. Manager\00. Collider_Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Cube.h">
+      <Filter>02. GameObject\01. Stage\06. Object\00.Cube\00.BaseCube</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\CollCube.h">
+      <Filter>02. GameObject\01. Stage\06. Object\00.Cube\01.CollCube</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Logo_UIQuit.h">
+      <Filter>02. GameObject\00. Logo\02. Ui_LogoQuit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Ghost.h">
+      <Filter>02. GameObject\01. Stage\01. Character\02. Monster\01. Ghost</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\QuickSlot.h">
+      <Filter>02. GameObject\01. Stage\07. UI\00.QuickSlot</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\QuickSlot_Reserve.h">
+      <Filter>02. GameObject\01. Stage\07. UI\01.QuickSlot_Reserve</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Ui_Manager.h">
+      <Filter>03. Manager\01. Ui_Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\LightEffectObj.h">
+      <Filter>02. GameObject\01. Stage\04. Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Creeper.h">
+      <Filter>02. GameObject\01. Stage\01. Character\02. Monster\02. Creeper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\BulletCnt.h">
+      <Filter>02. GameObject\01. Stage\07. UI\02.BulletCnt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Wave_Manager.h">
+      <Filter>03. Manager\02. Wave_Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Boss.h">
+      <Filter>02. GameObject\01. Stage\01. Character\02. Monster\03. Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\ColliderSkill.h">
+      <Filter>02. GameObject\01. Stage\03. Skill\01.ColliderSkill</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\CrossFilter.h">
+      <Filter>02. GameObject\01. Stage\07. UI\03.CrossFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Fireball.h">
+      <Filter>02. GameObject\01. Stage\03. Skill\02.Fileball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\FireWeapon.h">
+      <Filter>02. GameObject\01. Stage\05. Weapon\05. FireWeapon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\FireWeaponSkill.h">
+      <Filter>02. GameObject\01. Stage\03. Skill\03.FireWeaponSkill</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Hit_Ui.h">
+      <Filter>02. GameObject\01. Stage\07. UI\04.Hit_UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Projectile.h">
+      <Filter>02. GameObject\01. Stage\05. Weapon\06. Projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\ProjectileSkill.h">
+      <Filter>02. GameObject\01. Stage\03. Skill\04. ProjectileSkill</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\SkyBox.h">
+      <Filter>02. GameObject\01. Stage\00. Background\01. SkyBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Sound_Manager.h">
+      <Filter>03. Manager\03. Sound_Manager</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Client.cpp">
+      <Filter>99. Default</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99. Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\MainApp.cpp">
+      <Filter>00. MainApp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Scene_Logo.cpp">
+      <Filter>01. Scene\00. Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Scene_Stage.cpp">
+      <Filter>01. Scene\01. Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Terrain.cpp">
+      <Filter>02. GameObject\01. Stage\00. Background\00. Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Player.cpp">
+      <Filter>02. GameObject\01. Stage\01. Character\01. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Camera_Dynamic.cpp">
+      <Filter>02. GameObject\99. Public\00. Camera\00. Camera_Dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Camera_Player.cpp">
+      <Filter>02. GameObject\99. Public\00. Camera\01. Camera_Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Skill.cpp">
+      <Filter>02. GameObject\01. Stage\03. Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Bullet.cpp">
+      <Filter>02. GameObject\01. Stage\03. Skill\00. Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\LightObj.cpp">
+      <Filter>02. GameObject\01. Stage\98. Light</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Weapon.cpp">
+      <Filter>02. GameObject\01. Stage\05. Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Pistol.cpp">
+      <Filter>02. GameObject\01. Stage\05. Weapon\01.Pistol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Rifle.cpp">
+      <Filter>02. GameObject\01. Stage\05. Weapon\02. Rifle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Shotgun.cpp">
+      <Filter>02. GameObject\01. Stage\05. Weapon\03. Shotgun</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Chaingun.cpp">
+      <Filter>02. GameObject\01. Stage\05. Weapon\04. Chaingun</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\House.cpp">
+      <Filter>02. GameObject\01. Stage\06. Object\01.House\00.Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\HouseRoof.cpp">
+      <Filter>02. GameObject\01. Stage\06. Object\01.House\01.HouseRoof</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Back_Logo.cpp">
+      <Filter>02. GameObject\00. Logo\00. Back_Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Logo_UI.cpp">
+      <Filter>02. GameObject\00. Logo\01. UI_Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Logo_SkyBox.cpp">
+      <Filter>02. GameObject\00. Logo\03. SkyBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\BaseMonster.cpp">
+      <Filter>02. GameObject\01. Stage\01. Character\02. Monster\00. Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Monster.cpp">
+      <Filter>02. GameObject\01. Stage\01. Character\02. Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Character.cpp">
+      <Filter>02. GameObject\01. Stage\01. Character</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Collider_Manager.cpp">
+      <Filter>03. Manager\00. Collider_Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Cube.cpp">
+      <Filter>02. GameObject\01. Stage\06. Object\00.Cube\00.BaseCube</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\CollCube.cpp">
+      <Filter>02. GameObject\01. Stage\06. Object\00.Cube\01.CollCube</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Logo_UIQuit.cpp">
+      <Filter>02. GameObject\00. Logo\02. Ui_LogoQuit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Ghost.cpp">
+      <Filter>02. GameObject\01. Stage\01. Character\02. Monster\01. Ghost</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\QuickSlot.cpp">
+      <Filter>02. GameObject\01. Stage\07. UI\00.QuickSlot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\QuickSlot_Reserve.cpp">
+      <Filter>02. GameObject\01. Stage\07. UI\01.QuickSlot_Reserve</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Ui_Manager.cpp">
+      <Filter>03. Manager\01. Ui_Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\LightEffectObj.cpp">
+      <Filter>02. GameObject\01. Stage\04. Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Creeper.cpp">
+      <Filter>02. GameObject\01. Stage\01. Character\02. Monster\02. Creeper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\BulletCnt.cpp">
+      <Filter>02. GameObject\01. Stage\07. UI\02.BulletCnt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Wave_Manager.cpp">
+      <Filter>03. Manager\02. Wave_Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Boss.cpp">
+      <Filter>02. GameObject\01. Stage\01. Character\02. Monster\03. Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\ColliderSkill.cpp">
+      <Filter>02. GameObject\01. Stage\03. Skill\01.ColliderSkill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\CrossFilter.cpp">
+      <Filter>02. GameObject\01. Stage\07. UI\03.CrossFilter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Fireball.cpp">
+      <Filter>02. GameObject\01. Stage\03. Skill\02.Fileball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\FireWeapon.cpp">
+      <Filter>02. GameObject\01. Stage\05. Weapon\05. FireWeapon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\FireWeaponSkill.cpp">
+      <Filter>02. GameObject\01. Stage\03. Skill\03.FireWeaponSkill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Hit_Ui.cpp">
+      <Filter>02. GameObject\01. Stage\07. UI\04.Hit_UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Projectile.cpp">
+      <Filter>02. GameObject\01. Stage\05. Weapon\06. Projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\ProjectileSkill.cpp">
+      <Filter>02. GameObject\01. Stage\03. Skill\04. ProjectileSkill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\SkyBox.cpp">
+      <Filter>02. GameObject\01. Stage\00. Background\01. SkyBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Sound_Manager.cpp">
+      <Filter>03. Manager\03. Sound_Manager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Client.ico">
+      <Filter>99. Default</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>99. Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>99. Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

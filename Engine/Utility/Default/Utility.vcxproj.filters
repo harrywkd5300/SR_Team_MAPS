@@ -1,0 +1,417 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00. Component">
+      <UniqueIdentifier>{3807a5f0-1487-478e-9a04-7a546c275354}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene">
+      <UniqueIdentifier>{b232419a-d896-4b39-ac67-b75bc93bbd47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject">
+      <UniqueIdentifier>{7f55aaa7-00f3-46e2-a9aa-3cf81702f8bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\00. Manager">
+      <UniqueIdentifier>{975e42b0-39d6-40d5-8c93-8994db905a00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\01. Scene">
+      <UniqueIdentifier>{754de645-7748-4b30-a095-802be6649cdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Component\00. Manager">
+      <UniqueIdentifier>{f44064ed-633a-49aa-abab-ba5517adc7ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Component\01. Component">
+      <UniqueIdentifier>{7479535a-4bb7-48c7-a96f-b9f5aa2c7f1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Component\01. Component\00. Resources">
+      <UniqueIdentifier>{980eb280-8f8a-440e-a0b3-57f8633f3ddb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Component\01. Component\01. Transform">
+      <UniqueIdentifier>{b2369617-4739-4d65-b20e-5bbe935676d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Component\01. Component\02. Renderer">
+      <UniqueIdentifier>{ed304188-c771-429a-a4ba-6b6c7875c544}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Layer">
+      <UniqueIdentifier>{aed030bb-e6c3-4663-ba59-7e338fdedd45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\02. GameObject">
+      <UniqueIdentifier>{b1b1af62-7a63-475d-8774-e62f370d954a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Component\01. Component\00. Resources\00. Buffer">
+      <UniqueIdentifier>{bc8277ce-1d82-4898-b07a-107c2e46706b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Component\01. Component\00. Resources\00. Buffer\00. Triangle_Color">
+      <UniqueIdentifier>{658b2677-d31d-47d8-9be4-c046294f7137}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Component\01. Component\00. Resources\00. Buffer\01. Rect_Color">
+      <UniqueIdentifier>{c73ac761-a4af-4ed6-9a56-6d6e79cefa8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Component\01. Component\00. Resources\00. Buffer\02. Rect_Texture">
+      <UniqueIdentifier>{29fb756f-f74b-4458-b1c5-4b35c100dd01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Component\01. Component\00. Resources\01. Texture">
+      <UniqueIdentifier>{bba84ccf-abec-4755-ba35-ec9dda4738f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Component\01. Component\00. Resources\00. Buffer\03. Terrain_Buffer">
+      <UniqueIdentifier>{2d3d2382-70fa-494f-8f16-b7de7f456527}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\02. GameObject\00. Camera">
+      <UniqueIdentifier>{9902fb29-d427-4c4a-bf70-dfa0f043d0f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Component\01. Component\00. Resources\00. Buffer\99. Temp_Cube">
+      <UniqueIdentifier>{fe2cfcf0-f1fb-4c49-a3e1-237ea62d1702}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Manager">
+      <UniqueIdentifier>{88f164b3-0b6f-40c9-8234-7f5812447d0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\02. GameObject\00. Camera\00. Manager">
+      <UniqueIdentifier>{9a9c6dd2-8fa3-4ace-8608-09b0184f8b9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Component\01. Component\04. Material">
+      <UniqueIdentifier>{4a74998f-cf39-43db-a122-789278ac3d93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Component\01. Component\00. Resources\00. Buffer\89. Jang_Cube">
+      <UniqueIdentifier>{cd283e9e-3cb4-4fc4-92c5-4d039d1171a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Component\01. Component\00. Resources\00. Buffer\88. Jang_Terrain_Bffuer">
+      <UniqueIdentifier>{3f451046-ba03-45ca-b108-5afa14b0b9cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Component\01. Component\03. Shader">
+      <UniqueIdentifier>{b1089d6a-461e-40c4-816a-d33401ae6ec8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Component\01. Component\05. Light">
+      <UniqueIdentifier>{234ba32b-3525-4b19-bce2-d3117acd59c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Component\01. Component\00. Resources\00. Buffer\04. Cube_Texture">
+      <UniqueIdentifier>{7871bf18-1ca8-439e-b7c2-d2e8ff8c0ffc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Component\01. Component\01. Transform\00. Bone">
+      <UniqueIdentifier>{0deb61c7-c671-4ca1-8cf3-63cf20f9011a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Component\01. Component\00. Resources\00. Buffer\05. Cube_Color">
+      <UniqueIdentifier>{aad773ba-aab5-414f-9f5a-c2028ff2d5b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Component\01. Component\06. Picking">
+      <UniqueIdentifier>{24f7652b-a3de-4340-83eb-c9ed105c45e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Component\01. Component\05. Light\00. Manager">
+      <UniqueIdentifier>{7140d692-87e2-4b88-8a15-fe43a71df852}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Component\01. Component\07. Target">
+      <UniqueIdentifier>{d730fe9a-8734-4d58-9878-df0d0c59c22e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Component\01. Component\08. Particle">
+      <UniqueIdentifier>{458c1ccc-7960-46ee-96c0-d75b3395352b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Component\01. Component\08. Particle\00. Manager">
+      <UniqueIdentifier>{9de7cb21-57f6-4827-b297-2004972aa91d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Component\01. Component\08. Particle\01.Particle_Bullet">
+      <UniqueIdentifier>{b2ee1139-4505-44b2-b9ec-20e4f238db9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. WELL512">
+      <UniqueIdentifier>{6f910eb4-e143-4f5f-ac7e-436e2dea8b61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Component\01. Component\09. ColliderBox">
+      <UniqueIdentifier>{631c774f-7839-499d-bb27-99b983fd5790}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Component\01. Component\09. ColliderBox\01. AABB">
+      <UniqueIdentifier>{caf03271-6d04-4cff-93b9-fb5ce98e01b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Component\01. Component\09. ColliderBox\02. BILLBOARD">
+      <UniqueIdentifier>{d7350ef0-7ebc-4eee-b320-13004434afe9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Component\01. Component\08. Particle\02. Particle_Effect">
+      <UniqueIdentifier>{e576bcef-8d04-470f-b16c-cc0c187d9725}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Component\01. Component\00. Resources\00. Buffer\06. RectUI_Texture">
+      <UniqueIdentifier>{9233b679-9ba0-42db-af69-fe508649a48b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Component\01. Component\10. Effect">
+      <UniqueIdentifier>{a4c68041-4584-4886-b752-32d0d1194b17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Component\01. Component\00. Resources\00. Buffer\98. Manager">
+      <UniqueIdentifier>{78653b04-500c-4cda-a31e-d9850008d750}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Component\01. Component\10. Effect\00. Manager">
+      <UniqueIdentifier>{2878606b-9563-4bb2-ada1-60ebc231a70e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Component\01. Component\10. Effect\01. Effect_Bullet">
+      <UniqueIdentifier>{574825e0-52b3-4ebb-90dc-ffdff664f48c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Component\01. Component\10. Effect\02. Effect_Fixed">
+      <UniqueIdentifier>{0c0a6c70-90b2-4f0a-9330-22e83acb58dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Component\01. Component\10. Effect\03. Effect_Bomb">
+      <UniqueIdentifier>{64f720e4-e7d5-49cb-8e16-a888f3bbcb20}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Codes\Component_Manager.cpp">
+      <Filter>00. Component\00. Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Component.cpp">
+      <Filter>00. Component\01. Component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Camera.cpp">
+      <Filter>02. GameObject\02. GameObject\00. Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Layer.cpp">
+      <Filter>02. GameObject\01. Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Management.cpp">
+      <Filter>01. Scene\00. Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Object_Manager.cpp">
+      <Filter>02. GameObject\00. Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Rect_Color.cpp">
+      <Filter>00. Component\01. Component\00. Resources\00. Buffer\01. Rect_Color</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Rect_Texture.cpp">
+      <Filter>00. Component\01. Component\00. Resources\00. Buffer\02. Rect_Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Renderer.cpp">
+      <Filter>00. Component\01. Component\02. Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Resources.cpp">
+      <Filter>00. Component\01. Component\00. Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Scene.cpp">
+      <Filter>01. Scene\01. Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Terrain_Buffer.cpp">
+      <Filter>00. Component\01. Component\00. Resources\00. Buffer\03. Terrain_Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Texture.cpp">
+      <Filter>00. Component\01. Component\00. Resources\01. Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Transform.cpp">
+      <Filter>00. Component\01. Component\01. Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Triangle_Color.cpp">
+      <Filter>00. Component\01. Component\00. Resources\00. Buffer\00. Triangle_Color</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\VIBuffer.cpp">
+      <Filter>00. Component\01. Component\00. Resources\00. Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\GameObject.cpp">
+      <Filter>02. GameObject\02. GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Temp_Cube.cpp">
+      <Filter>00. Component\01. Component\00. Resources\00. Buffer\99. Temp_Cube</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Camera_Manager.cpp">
+      <Filter>02. GameObject\02. GameObject\00. Camera\00. Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Shader.cpp">
+      <Filter>00. Component\01. Component\03. Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Jang_Cube.cpp">
+      <Filter>00. Component\01. Component\00. Resources\00. Buffer\89. Jang_Cube</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Material.cpp">
+      <Filter>00. Component\01. Component\04. Material</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Light.cpp">
+      <Filter>00. Component\01. Component\05. Light</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Jang_Terrain_Buffer.cpp">
+      <Filter>00. Component\01. Component\00. Resources\00. Buffer\88. Jang_Terrain_Bffuer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Cube_Texture.cpp">
+      <Filter>00. Component\01. Component\00. Resources\00. Buffer\04. Cube_Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Bone.cpp">
+      <Filter>00. Component\01. Component\01. Transform\00. Bone</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Cube_Color.cpp">
+      <Filter>00. Component\01. Component\00. Resources\00. Buffer\05. Cube_Color</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Picking.cpp">
+      <Filter>00. Component\01. Component\06. Picking</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Light_Manager.cpp">
+      <Filter>00. Component\01. Component\05. Light\00. Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Target.cpp">
+      <Filter>00. Component\01. Component\07. Target</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Particle_Renderer.cpp">
+      <Filter>00. Component\01. Component\08. Particle\00. Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Particle.cpp">
+      <Filter>00. Component\01. Component\08. Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Particle_Bullet.cpp">
+      <Filter>00. Component\01. Component\08. Particle\01.Particle_Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\WELL512a.cpp">
+      <Filter>03. WELL512</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\ColliderBox.cpp">
+      <Filter>00. Component\01. Component\09. ColliderBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Billboard_Buffer.cpp">
+      <Filter>00. Component\01. Component\09. ColliderBox\02. BILLBOARD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\AABB_Buffer.cpp">
+      <Filter>00. Component\01. Component\09. ColliderBox\01. AABB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Particle_Effect.cpp">
+      <Filter>00. Component\01. Component\08. Particle\02. Particle_Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\RectUI_Texture.cpp">
+      <Filter>00. Component\01. Component\00. Resources\00. Buffer\06. RectUI_Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Effect.cpp">
+      <Filter>00. Component\01. Component\10. Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Buffer_Manager.cpp">
+      <Filter>00. Component\01. Component\00. Resources\00. Buffer\98. Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Effect_Manager.cpp">
+      <Filter>00. Component\01. Component\10. Effect\00. Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Effect_Bullet.cpp">
+      <Filter>00. Component\01. Component\10. Effect\01. Effect_Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Effect_Fixed.cpp">
+      <Filter>00. Component\01. Component\10. Effect\02. Effect_Fixed</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Headers\Camera.h">
+      <Filter>02. GameObject\02. GameObject\00. Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Component.h">
+      <Filter>00. Component\01. Component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Component_Manager.h">
+      <Filter>00. Component\00. Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\GameObject.h">
+      <Filter>02. GameObject\02. GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Layer.h">
+      <Filter>02. GameObject\01. Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Management.h">
+      <Filter>01. Scene\00. Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Object_Manager.h">
+      <Filter>02. GameObject\00. Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Rect_Color.h">
+      <Filter>00. Component\01. Component\00. Resources\00. Buffer\01. Rect_Color</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Rect_Texture.h">
+      <Filter>00. Component\01. Component\00. Resources\00. Buffer\02. Rect_Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Renderer.h">
+      <Filter>00. Component\01. Component\02. Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Resources.h">
+      <Filter>00. Component\01. Component\00. Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Scene.h">
+      <Filter>01. Scene\01. Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Terrain_Buffer.h">
+      <Filter>00. Component\01. Component\00. Resources\00. Buffer\03. Terrain_Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Texture.h">
+      <Filter>00. Component\01. Component\00. Resources\01. Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Transform.h">
+      <Filter>00. Component\01. Component\01. Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Triangle_Color.h">
+      <Filter>00. Component\01. Component\00. Resources\00. Buffer\00. Triangle_Color</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\VIBuffer.h">
+      <Filter>00. Component\01. Component\00. Resources\00. Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Temp_Cube.h">
+      <Filter>00. Component\01. Component\00. Resources\00. Buffer\99. Temp_Cube</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Camera_Manager.h">
+      <Filter>02. GameObject\02. GameObject\00. Camera\00. Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Shader.h">
+      <Filter>00. Component\01. Component\03. Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Jang_Cube.h">
+      <Filter>00. Component\01. Component\00. Resources\00. Buffer\89. Jang_Cube</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Material.h">
+      <Filter>00. Component\01. Component\04. Material</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Light.h">
+      <Filter>00. Component\01. Component\05. Light</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Jang_Terrain_Buffer.h">
+      <Filter>00. Component\01. Component\00. Resources\00. Buffer\88. Jang_Terrain_Bffuer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Cube_Texture.h">
+      <Filter>00. Component\01. Component\00. Resources\00. Buffer\04. Cube_Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Bone.h">
+      <Filter>00. Component\01. Component\01. Transform\00. Bone</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Cube_Color.h">
+      <Filter>00. Component\01. Component\00. Resources\00. Buffer\05. Cube_Color</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Picking.h">
+      <Filter>00. Component\01. Component\06. Picking</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Light_Manager.h">
+      <Filter>00. Component\01. Component\05. Light\00. Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Target.h">
+      <Filter>00. Component\01. Component\07. Target</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Particle_Renderer.h">
+      <Filter>00. Component\01. Component\08. Particle\00. Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Particle.h">
+      <Filter>00. Component\01. Component\08. Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Particle_Bullet.h">
+      <Filter>00. Component\01. Component\08. Particle\01.Particle_Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\WELL512a.h">
+      <Filter>03. WELL512</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\ColliderBox.h">
+      <Filter>00. Component\01. Component\09. ColliderBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Billboard_Buffer.h">
+      <Filter>00. Component\01. Component\09. ColliderBox\02. BILLBOARD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\AABB_Buffer.h">
+      <Filter>00. Component\01. Component\09. ColliderBox\01. AABB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Particle_Effect.h">
+      <Filter>00. Component\01. Component\08. Particle\02. Particle_Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\RectUI_Texture.h">
+      <Filter>00. Component\01. Component\00. Resources\00. Buffer\06. RectUI_Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Effect.h">
+      <Filter>00. Component\01. Component\10. Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Buffer_Manager.h">
+      <Filter>00. Component\01. Component\00. Resources\00. Buffer\98. Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Effect_Manager.h">
+      <Filter>00. Component\01. Component\10. Effect\00. Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Effect_Bullet.h">
+      <Filter>00. Component\01. Component\10. Effect\01. Effect_Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Effect_Fixed.h">
+      <Filter>00. Component\01. Component\10. Effect\02. Effect_Fixed</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

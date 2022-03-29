@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="99. Default">
+      <UniqueIdentifier>{7b4d1256-34d6-4445-a541-4e5f61ff8888}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. MainFrm">
+      <UniqueIdentifier>{8544a9d5-f932-46c8-b0ea-cb5972d47b2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. View">
+      <UniqueIdentifier>{9aa98672-c7c2-4912-8b19-cac00c21473d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Headers">
+      <UniqueIdentifier>{fc7613ac-4ec7-4531-ac94-99564403ab03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scene">
+      <UniqueIdentifier>{150cc54d-2bed-4f28-875c-ad97e8b198d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject">
+      <UniqueIdentifier>{020399bf-c497-42a2-911f-d36edaecfe59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\00.Camera">
+      <UniqueIdentifier>{78e51f4f-fd5f-4e1c-9994-292581e4b493}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\01. Creature">
+      <UniqueIdentifier>{fa2c0106-8e96-4008-a08f-0fe5335242e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\01. Creature\00. Manager">
+      <UniqueIdentifier>{c4ec8f7f-69ee-4291-8f3b-0d696a74b835}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\01. Creature\01. Creature">
+      <UniqueIdentifier>{d8df624a-7ba9-47d3-98a7-fd0386b25629}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. View\00. MainFormView">
+      <UniqueIdentifier>{f1cf5a26-b29a-4292-84df-6d382b958a40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. View\01. Sheet">
+      <UniqueIdentifier>{7989faef-2fa0-4506-afea-e41e897faa04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. View\01. Sheet\00. Body">
+      <UniqueIdentifier>{08de29de-d756-4526-9a99-df89602aaaf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. View\01. Sheet\01. Animate">
+      <UniqueIdentifier>{f8c4cf55-2384-42ff-8cd4-c097e2eea325}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AnimationTool.h">
+      <Filter>99. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationToolDoc.h">
+      <Filter>99. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>99. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>00. MainFrm</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationToolView.h">
+      <Filter>01. View</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\A_Defines.h">
+      <Filter>98. Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Scene_ATool.h">
+      <Filter>02. Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\MainFormView.h">
+      <Filter>01. View\00. MainFormView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Sheet.h">
+      <Filter>01. View\01. Sheet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\headers\Page_Body.h">
+      <Filter>01. View\01. Sheet\00. Body</Filter>
+    </ClInclude>
+    <ClInclude Include="..\headers\Page_Animate.h">
+      <Filter>01. View\01. Sheet\01. Animate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Creature.h">
+      <Filter>03. GameObject\01. Creature\01. Creature</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Creature_Manager.h">
+      <Filter>03. GameObject\01. Creature\00. Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Tool_Camera_Dynamic.h">
+      <Filter>03. GameObject\00.Camera</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AnimationTool.cpp">
+      <Filter>99. Default</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationToolDoc.cpp">
+      <Filter>99. Default</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99. Default</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>00. MainFrm</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationToolView.cpp">
+      <Filter>01. View</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Scene_ATool.cpp">
+      <Filter>02. Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\MainFormView.cpp">
+      <Filter>01. View\00. MainFormView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Sheet.cpp">
+      <Filter>01. View\01. Sheet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\codes\Page_Body.cpp">
+      <Filter>01. View\01. Sheet\00. Body</Filter>
+    </ClCompile>
+    <ClCompile Include="..\codes\Page_Animate.cpp">
+      <Filter>01. View\01. Sheet\01. Animate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Creature.cpp">
+      <Filter>03. GameObject\01. Creature\01. Creature</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Creature_Manager.cpp">
+      <Filter>03. GameObject\01. Creature\00. Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Tool_Camera_Dynamic.cpp">
+      <Filter>03. GameObject\00.Camera</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\AnimationTool.ico">
+      <Filter>99. Default</Filter>
+    </Image>
+    <Image Include="res\AnimationToolDoc.ico">
+      <Filter>99. Default</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>99. Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="AnimationTool.rc">
+      <Filter>99. Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\AnimationTool.rc2">
+      <Filter>99. Default</Filter>
+    </None>
+  </ItemGroup>
+</Project>

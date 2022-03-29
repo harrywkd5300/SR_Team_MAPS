@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00.MainFrame">
+      <UniqueIdentifier>{5d8bd0e7-0692-46dc-9069-ca87a2ad95fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.MyView">
+      <UniqueIdentifier>{3854cd3d-7600-4920-a059-b3f2f0f229c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Default">
+      <UniqueIdentifier>{f0570340-32e8-412f-97cf-d4685f3acce4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Header">
+      <UniqueIdentifier>{5cd12401-03e2-4ed2-b08b-aca0a0f452c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject">
+      <UniqueIdentifier>{d507af65-57f4-4b89-9287-aecf52b74bc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\01.Terrain">
+      <UniqueIdentifier>{f66e350e-44b5-4e49-9251-30f103ac380d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\00.Camera">
+      <UniqueIdentifier>{33b613fe-0d8a-47f2-99d9-513abaccd0b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene">
+      <UniqueIdentifier>{9959cf85-ea8f-4102-87c8-a9529381e711}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.MyView\00.MyForm">
+      <UniqueIdentifier>{3a71dbc6-3585-41a2-ac16-928d958fc383}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.MyView\00.MyForm\00.Tab">
+      <UniqueIdentifier>{bb236312-6410-481b-9340-2121c7801d1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.MyView\00.MyForm\00.Tab\00.Dialog1">
+      <UniqueIdentifier>{ab5b3415-a8da-4c1d-adf3-01eeb19c981e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.MyView\00.MyForm\00.Tab\01.Dialog2">
+      <UniqueIdentifier>{ce50e52b-2d3d-4033-a9c5-a8d4fd2cf189}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\02.Cube">
+      <UniqueIdentifier>{f3d6ad12-7904-404f-9fd9-bbd2d4ba1121}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\03.Object">
+      <UniqueIdentifier>{89ad3e7b-f76d-4f61-8ca0-ad028d596424}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainFrm.h">
+      <Filter>00.MainFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="MapToolView.h">
+      <Filter>01.MyView</Filter>
+    </ClInclude>
+    <ClInclude Include="MapTool.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="MapToolDoc.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Scene_Tool.h">
+      <Filter>02.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Tool_ToolCCamera.h">
+      <Filter>03.GameObject\00.Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Tool_Terrian.h">
+      <Filter>03.GameObject\01.Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Tool_Define.h">
+      <Filter>98.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\MyToolForm.h">
+      <Filter>01.MyView\00.MyForm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\DialogTab1.h">
+      <Filter>01.MyView\00.MyForm\00.Tab\00.Dialog1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\DialogTab2.h">
+      <Filter>01.MyView\00.MyForm\00.Tab\01.Dialog2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Tool_Cube.h">
+      <Filter>03.GameObject\02.Cube</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Tool_Object.h">
+      <Filter>03.GameObject\03.Object</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>00.MainFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="MapToolView.cpp">
+      <Filter>01.MyView</Filter>
+    </ClCompile>
+    <ClCompile Include="MapTool.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="MapToolDoc.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Scene_Tool.cpp">
+      <Filter>02.Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Tool_ToolCCamera.cpp">
+      <Filter>03.GameObject\00.Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Tool_Terrian.cpp">
+      <Filter>03.GameObject\01.Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\MyToolForm.cpp">
+      <Filter>01.MyView\00.MyForm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\DialogTab1.cpp">
+      <Filter>01.MyView\00.MyForm\00.Tab\00.Dialog1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\DialogTab2.cpp">
+      <Filter>01.MyView\00.MyForm\00.Tab\01.Dialog2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Tool_Cube.cpp">
+      <Filter>03.GameObject\02.Cube</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Tool_Object.cpp">
+      <Filter>03.GameObject\03.Object</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\MapTool.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+    <Image Include="res\MapToolDoc.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>99.Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MapTool.rc">
+      <Filter>99.Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\MapTool.rc2">
+      <Filter>99.Default</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>99.Default</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
